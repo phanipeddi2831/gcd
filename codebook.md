@@ -1,4 +1,4 @@
-This code book file gives information about the tidy data set prepared for the "Getting and Cleaning DAta' coursera assignment. 
+##This code book file gives information about the tidy data set prepared for the "Getting and Cleaning DAta' coursera assignment. 
 
 
 Number of rows=180
@@ -9,18 +9,18 @@ All columns except 'activity' and 'subject' are measurement values whose values 
 
 
 Few columns which are calculated with respect to axis are represented by suffixes with axis label 
-#for example  'tBodyAcc.mean..X'  means this measure is for X axis 
+for example  'tBodyAcc.mean..X'  means this measure is for X axis 
 
 Columns which begin with t are time measures
 Columns which begin with f are frequency measures
 
-Column Activity gives info about the activities against which the measurements are taken. 
+#Column Activity gives info about the activities against which the measurements are taken. 
 -Values (WALKING ,WALKING_UPSTAIRS,WALKING_DOWNSTAIRS,SITTING, LAYING,STANDING)
 
-Column Subject gives info on the subject. There are 30 unique subjects. 
+#Column Subject gives info on the subject. There are 30 unique subjects. 
 -Values ( 1 to 30)
 
-Other col names are given below ( -Values range from -1 to 1) 
+#Other col names are given below ( -Values range from -1 to 1) 
  "tBodyAcc.mean...X"                    
  "tBodyAcc.mean...Y"                   
  "tBodyAcc.mean...Z"                    
